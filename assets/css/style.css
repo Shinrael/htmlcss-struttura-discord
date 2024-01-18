@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.box{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*Header*/
 
 .debug{
@@ -81,14 +89,6 @@ nav ul li{
 
 /*Main*/
 
-.box{
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .section{
   padding: 50px 0;
 }
@@ -100,7 +100,7 @@ nav ul li{
 .text{
   background-color: #FFC0CB;
   border: 1px dashed black;
-  width: 49%;
+  width: 38%;
   height: 520px;
   display: flex;
   justify-content: center;
@@ -111,7 +111,7 @@ nav ul li{
 .image{
   background-color: #1E90FF;
   border: 1px dashed black;
-  width: 74%;
+  width: 62%;
   height: 520px;
   display: flex;
   justify-content: center;
@@ -132,22 +132,16 @@ nav ul li{
 
 /*Footer*/
 
-footer{
-  background-color: white;
-}
-
 .footer-up{
   height: 655px;
   background-color: #23272A;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .colonna-grande{
   background-color: #F08080;
   border: 1px dashed black;
-  width: 375px;
+  width: 30%;
   height: 600px;
   display: flex;
   justify-content: center;
@@ -158,7 +152,7 @@ footer{
 .colonna-piccola{
   background-color: #20B2AA;
   border: 1px dashed white;
-  width: 215px;
+  width: 17.5%;
   height: 600px;
   display: flex;
   justify-content: center;
@@ -182,7 +176,6 @@ footer{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  text-align: center;
 }
 
 .footer-logo{
