@@ -81,29 +81,26 @@ nav ul li{
 
 /*Main*/
 
-.first-section{
-  background-color: white;
-  height: 625px;
+.box{
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.first-image{
-  background-color: #1E90FF;
-  border: 1px dashed black;
-  width: 750px;
-  height: 520px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.section{
+  padding: 50px 0;
 }
 
-.first-text{
+.section-grey{
+  background-color:#D3D3D3 ;
+}
+
+.text{
   background-color: #FFC0CB;
   border: 1px dashed black;
-  width: 500px;
+  width: 49%;
   height: 520px;
   display: flex;
   justify-content: center;
@@ -111,78 +108,21 @@ nav ul li{
   text-align: center;
 }
 
-.second-section{
-  background-color: #D3D3D3;
-  height: 625px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.second-text{
-  background-color: #FFC0CB;
-  border: 1px dashed black;
-  width: 500px;
-  height: 520px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.second-image{
+.image{
   background-color: #1E90FF;
   border: 1px dashed black;
-  width: 750px;
+  width: 74%;
   height: 520px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.third-section{
-  background-color: white;
-  height: 625px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.third-image{
-  background-color: #1E90FF;
-  border: 1px dashed black;
-  width: 750px;
-  height: 520px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.third-text{
-  background-color: #FFC0CB;
-  border: 1px dashed black;
-  width: 500px;
-  height: 520px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.fourth-section{
-  background-color: #D3D3D3;
-  height: 1000px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .fourth-container{
   background-color: #228B22;
   border: 1px dashed black;
-  width: 1250px;
+  width: 100%;
   height: 900px;
   display: flex;
   justify-content: center;
