@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/*Header*/
+
 .debug{
   background-color: #DAA520;
   border: 1px dashed black;
@@ -53,4 +55,26 @@ nav ul li{
 
 .pulsante{
   text-align: right;
+}
+
+/*Hero*/
+
+.container-hero{
+  background-color: #00008B;
+  height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero{
+  background-color: #EE82EE;
+  border: 1px dashed black;
+  width: 945px;
+  height: 415px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
 }
