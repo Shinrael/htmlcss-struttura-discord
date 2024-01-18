@@ -78,3 +78,35 @@ nav ul li{
   text-align: center;
   
 }
+
+/*Main*/
+
+.first-section{
+  background-color: white;
+  height: 625px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-image{
+  background-color: #1E90FF;
+  border: 1px dashed black;
+  width: 750px;
+  height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.first-text{
+  background-color: #FFC0CB;
+  border: 1px dashed black;
+  width: 500px;
+  height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
